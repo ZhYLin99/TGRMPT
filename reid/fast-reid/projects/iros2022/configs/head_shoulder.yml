@@ -8,8 +8,8 @@ MODEL:
 DATASETS:
   NAMES: ("ZJRR",)
   TESTS: ("ZJRR",)
-  IMAGE_ROOT: ../../../../dataset/reid/hs_images
-  INDEX_PREFIX: ../../../../dataset/reid/index_txt/iros2022_fisheye
+  IMAGE_ROOT: ../../../../data/reid/hs_images
+  INDEX_PREFIX: ../../../../data/reid/index_txt/iros2022_fisheye
 
 SOLVER:
   WARMUP_ITERS: 0
